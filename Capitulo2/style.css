@@ -1,0 +1,22 @@
+#contenedor {
+    background-color: #FF5500;
+    width: 400px;
+    padding: 25px;    
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px #669999;
+}
+div {
+  
+}
+
+
+#contenedorLabel {
+  margin: .4em 0;
+  width: 25%;
+  float: left;
+}
+
+label {
+  display: block;
+  margin: .5em 0 0 0;
+}
