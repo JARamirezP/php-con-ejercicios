@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;    
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: #000;
+    outline: 0px;
+}
+
+.btn-sinEstilo {
+    border:none;
+    color:#000;
+    background-color: #FFF;
+}
+
+#container {
+    width: 70%;
+    margin: auto;
+}
+
+    #container *{
+        margin: auto;
+    }
+
+#back {
+    margin: auto;
+    padding-top: 20px;
+    width: 100px;
+    font-size: 12px;
+}
+
+#confirmation {
+    margin: auto;
+    padding-top: 20px;
+    width: 453px;
+    font-size: 10px;
+}
+
+table { 
+    border-collapse: collapse; 
+}
+
+tr:nth-child(odd) {
+    background-color: #EEE;
+}
+
+tr:nth-child(1) {
+    background-color: #FFF;
+}
+
+
+
+

@@ -1,0 +1,19 @@
+<?php
+                foreach($_SESSION[shoppingCart] as $code => $element) {
+                    $numArticles = $numArticles + $_SESSION[shoppingCart][$code];                                        
+                }
+            ?>        <div id="contenedorEnlace">
+                    CARRITO (<?=$numArticles?>)
+                </div>
+
+
+css /////////////
+
+#contenedorEnlace {
+    float: right;
+    font-family: Geneva;
+    font-size: 14px;
+    color: #444;
+    line-height: -100%; 
+    padding: 75px;
+}
